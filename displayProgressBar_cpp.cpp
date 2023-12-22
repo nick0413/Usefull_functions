@@ -1,3 +1,6 @@
+#include <iostream>
+#include <string>
+
 void displayProgressBar(float progress, int barWidth = 50, std::string line="=")
 	{
 		std::cout << "[";
